@@ -1,57 +1,62 @@
+![image alt](https://cdn.tuwaiq.edu.sa/landing/images/logo/logo-h.png)
 
-## Foodora App UI in Flutter 🍔
+# 📘 Foodora app (UI) – Overview
 
-![Foodora UI](https://paper-attachments.dropboxusercontent.com/s_A8FFBBE8FC8B6CD6E76F8A387E1E02F9FAE9735AE5170B84D95D4A05B0A94071_1739348940745_Screenshot+1446-08-13+at+11.12.53AM.png)
+The Foodora app is an online food delivery service where users can browse various restaurant menus, add food items to their cart, and complete the checkout process. The app displays different food categories such as burgers, pizza, chicken, and others, with features like searching, viewing items, and adding to cart.
 
----
+## 📷 Screenshots
 
-## 📌 Objective
+![image alt](https://github.com/azizotbb/Foodora-App-UI/blob/23593da6f83d51d0d8574ea1f23f5b18439c392d/img.jpg)
 
-Your task is to replicate the **Foodora app UI** using Flutter.  
-The app should provide an interactive and visually appealing food ordering experience with **smooth navigation**.
+## 🎥 Gif
 
----
+![image alt](https://github.com/azizotbb/Foodora-App-UI/blob/23593da6f83d51d0d8574ea1f23f5b18439c392d/gif.gif)
 
-## 🎨 Figma UI
+## 🔍 Features
 
-Design reference:
+- User Authentication via email or social media accounts.
+- Food Categories for better navigation.
+- Food Item Cards with images, price, and ratings.
+- Interactive Dialogs to confirm food selection.
+- Swipeable Carousel to browse food items.
+- Checkout and Cart with a stylish bottom sheet.
+- Modern UI Design with gradient colors and Google Fonts.
+- Responsive and Adaptive design for a wide range of devices.
 
-- [Figma Design](https://www.figma.com/design/2zd2h3XEZ7fsSkS3oeSOYn/Food-app---Authentication-(Community)?node-id=0-1&p=f&t=sXtJ8KxNe3voBCvy-0)
+## 🎨 Figma UI:
 
+https://www.figma.com/design/2zd2h3XEZ7fsSkS3oeSOYn/Food-app---Authentication--Community-?node-id=0-1
 
----
+## Tech Stack
 
-## 🔧 Concepts to Implement
+- Flutter (latest version)
+- Dart
 
-1. **Advanced Navigation**
-   - 🧭 Implement a `Drawer` for side navigation.
-   - 🍽️ Create a `TabBar` with `TabController` to switch between food categories.
+## Installation
 
-2. **Scrollable Views**
-   - 📜 Use `ListView` for a vertical scrollable list of food items.
-   - 👆 Implement `PageView` for swiping between featured food.
-   - ⚙️ Customize scroll behavior and gestures.
+1.  Clone the repository:
 
-3. **Dialogs and Sheets**
-   - 🛒 Use `AlertDialog` for adding to cart.
-   - 📦 Implement a `BottomSheet` for food item details or cart summary.
+    `https://github.com/azizotbb/Foodora-App-UI.git`
 
----
+2.  Navigate to the project folder:
 
-## 📂 Submission Guidelines
+    `cd foodora_app_ui`
 
-- 📌 Upload your project to **GitHub** with a well-documented `README.md`.
-- 📸 Include **screenshots** or **screen recordings** of the working app.
-- 🧼 Follow **clean code** principles.
+3.  Install dependencies:
 
----
+    `flutter pub get`
 
-## ⏳ Deadline
+4.  Run the app:
 
-Submit by **[May 6]** before **10:00 AM**.
+    `flutter run`
 
----
+## Folder Structure
 
-## ✨ Reminder
+    lib/
+    ├── screens/
+    ├── widgets/
+    └── main.dart
 
-🚀 *"Food ordering apps should be as smooth as melted cheese on a burger!"* 🍔😋
+## ✨ Author
+
+- AbdulAziz Alotaibi
